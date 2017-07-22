@@ -87,7 +87,6 @@
 
 	$pdf->Cell(74	,5,'',0,0);
 	$pdf->Cell(5	,5,'Total : ',0,0);
-	//$pdf->Cell(2	,5,'tl',0,0);
 	$pdf->SetFont('Arial','',12);
 	$pdf->Cell(25	,5,'$123',0,1,'C');//end of line
 

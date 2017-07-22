@@ -73,9 +73,7 @@
 
 	$pdf->Cell(60	,5,'ProductName',1,0);
 	$pdf->Cell(15	,5,'Count',1,0);
-	//$pdf->Cell(30	,5,' ',1,0);
 	$pdf->Cell(25	,5,'Price',1,0);
-	$pdf->Cell(25	,5,'1',0,1,'R');
 
 	//summary
 	$pdf->Cell(50	,5,'',0,0);
